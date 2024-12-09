@@ -1,5 +1,30 @@
 DataBricks Workshop code share day 2
 
+```
+
+import json
+def delta_log(filePath):
+  content = dbutils.fs.head(filePath, 20000)
+  contents = content.split("\n")
+  for c in contents:
+    #print (c)
+    c = c.strip()
+    if c == "":
+      continue
+    parsed_json = json.loads(c.strip())
+    print (json.dumps(parsed_json, indent=4))
+
+#delta_log("dbfs:/user/hive/warehouse/deldb.db/orders/_delta_log/00000000000000000000.json")
+
+```
+def ls(path):
+  for fileInfo in dbutils.fs.ls(path):
+    print (fileInfo.path)
+
+ls("/user/hive/warehouse/deldb.db/orders/_delta_log/")
+```
+
+```
 
 # Reference to package install and import 
 
