@@ -1,3 +1,16 @@
+
+```
+spark.conf.set("fs.s3a.access.key", os.environ["AWS_ACCESS_KEY"])
+spark.conf.set("fs.s3a.secret.key", os.environ["AWS_SECRET_KEY"])
+spark.conf.set("fs.s3a.endpoint", "s3.amazonaws.com")
+
+# Test S3 access
+df = spark.read.csv("s3://gks-db-bucket/movies.csv")
+df.show()
+```
+
+
+
 https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/6783894296240107/2844802299536912/3024786518770907/latest.html
 
 
