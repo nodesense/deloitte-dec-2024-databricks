@@ -17,6 +17,8 @@ def delta_log(filePath):
 #delta_log("dbfs:/user/hive/warehouse/deldb.db/orders/_delta_log/00000000000000000000.json")
 
 ```
+
+```
 def ls(path):
   for fileInfo in dbutils.fs.ls(path):
     print (fileInfo.path)
