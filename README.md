@@ -1,3 +1,8 @@
+Notes sharing
+
+https://notepad.pw/lT7nQSnp492O4hcP5M3u
+
+
 
 ```
 spark.conf.set("fs.s3a.access.key", os.environ["AWS_ACCESS_KEY"])
