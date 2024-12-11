@@ -6,6 +6,13 @@ https://gopalakrishnan-my.sharepoint.com/:f:/g/personal/gs_training_sh/Emg-k-ioN
 
 https://notepad.pw/lT7nQSnp492O4hcP5M3u
 
+order1.csv
+```
+order_id,amount,dept
+1003,678.75,furniture
+1004,123.5,laptop
+```
+
 
 
 ```
