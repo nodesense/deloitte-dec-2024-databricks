@@ -1,8 +1,7 @@
 Notes sharing
 
 https://github.com/apache/spark/blob/master/docs/img/structured-streaming.pptx
-
-https://gopalakrishnan-my.sharepoint.com/:f:/g/personal/gs_training_sh/Emg-k-ioNeVFpAqO--LM11EB2vfb-e3p3Ta8yMsUeldm_Q?e=kdYmrb
+ 
 
 https://notepad.pw/lT7nQSnp492O4hcP5M3u
 
