@@ -6,6 +6,20 @@ https://gopalakrishnan-my.sharepoint.com/:f:/g/personal/gs_training_sh/Emg-k-ioN
 
 https://notepad.pw/lT7nQSnp492O4hcP5M3u
 
+```
+
+
+https://leetquiz.com/
+
+https://files.training.databricks.com/assessments/practice-exams/PracticeExam-DataEngineerAssociate.pdf
+
+https://files.training.databricks.com/assessments/practice-exams/PracticeExam-DCADAS3-Python.pdf
+
+
+https://www.udemy.com/course/practice-exams-databricks-certified-data-engineer-associate/?couponCode=ST19MT121224
+
+```
+
 order1.csv
 ```
 order_id,amount,dept
