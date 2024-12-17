@@ -1,0 +1,21 @@
+Index,Question,A,B,C,D,
+1,"On Databricks, what is the primary purpose of a cluster?",To manage metadata in Unity Catalog,To execute Spark computations by allocating compute resources,To permanently store data in Delta format,To cache frequently accessed data in-memory,B
+2,"Which Databricks feature provides a centralized governance solution for data and AI assets, enabling fine-grained access controls and lineage?",Delta Lake,Unity Catalog,Spark Executors,Cluster Manager,B
+3,"In Databricks, which storage format is designed to bring ACID transactions and schema evolution to big data?",Delta,Parquet,Avro,CSV,A
+4,"When using Databricks SQL, which underlying engine is utilized to query structured data at scale?",Spark SQL,Hadoop MapReduce,Hive on Tez,Presto,A
+5,"To improve performance in iterative Spark jobs on Databricks, which technique is used to keep frequently accessed data in memory?",Shuffling,Partition pruning,Caching,Delta checkpointing,C
+6,Which concept in Databricks ensures that streaming jobs can recover from failures and maintain exactly-once processing semantics?,Micro-batching,Caching RDDs,Delta Lake checkpoints,Unity Catalog lineage,C
+7,"In Databricks, what is the recommended method to handle slowly changing dimensions and large-scale data merges?",Using ephemeral clusters,Storing data as CSV,Delta Lake MERGE operations,Relying solely on Unity Catalog,C
+8,Which of the following best describes a key benefit of Unity Catalog in Databricks?,Provides a distributed compute cluster,Offers real-time streaming ingestion,Delivers fine-grained access control and governance across data assets,Implements low-level caching mechanisms,C
+9,"In Databricks Structured Streaming, which output mode only writes the rows that have changed since the last trigger?",Append,Complete,Update,Delta,C
+10,"When running Spark on Databricks, where do the executors typically run?",On the local driver machine,On the cluster's worker nodes,On Unity Catalog servers,Inside Delta Lake files,B
+11,Which feature allows Databricks users to time travel and query previous versions of a Delta table?,Unity Catalog Snapshots,Delta Versioning,Spark Checkpoints,Cluster Historical Views,B
+12,What is the main advantage of using Databricks Runtime clusters over standard open-source Spark distributions?,They enforce schema-on-read on all data,They offer performance optimizations and built-in connectors,They limit Unity Catalog usage,They disable caching features,B
+13,Which Databricks component integrates with Spark to ensure real-time streaming with exactly-once guarantees?,Unity Catalog governance controls,Databricks Jobs scheduler,Delta Lake with Structured Streaming,Cluster autoscaling,C
+14,How can administrators ensure that users only access specific tables and columns in Databricks?,By using Unity Catalog to set fine-grained access control policies,By disabling caching at the cluster level,By forcing all data into CSV files,By disabling Spark SQL entirely,A
+15,Which of the following statements is true about the Delta format in Databricks?,It cannot be queried with Spark SQL,It does not support ACID transactions,It allows time travel and schema evolution,It cannot handle streaming data,C
+16,How can you improve job performance in Databricks when repeatedly transforming the same DataFrame?,Run transformations on a smaller cluster,Use Spark caching or persistence,Disable Delta checkpoints,Limit Unity Catalog usage,B
+17,Which feature of Databricks clusters allows them to dynamically adjust resources based on workload?,Unity Catalog Access Control,Cluster Autoscaling,Delta MERGE,Spark Driver Logs,B
+18,"In Databricks Structured Streaming, what is the role of the trigger?",To remove cached data from memory,To define the execution frequency of the streaming query,To automatically merge Delta tables,To enforce Unity Catalog policies,B
+19,What is a common method to reduce costs in a Databricks environment?,Storing all data in CSV,Disabling Unity Catalog,Configuring cluster auto-termination after inactivity,Running all workloads on the driver node,C
+20,Which key capability does Unity Catalog add to a Databricks Lakehouse environment?,Machine learning model training,Real-time DataFrame caching,"Centralized governance, access control, and lineage",In-memory cluster execution,C
