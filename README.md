@@ -1,3 +1,8 @@
+For MASK
+
+https://docs.databricks.com/en/sql/language-manual/sql-ref-syntax-ddl-column-mask.html
+
+
 Notes sharing
 
 https://github.com/apache/spark/blob/master/docs/img/structured-streaming.pptx
