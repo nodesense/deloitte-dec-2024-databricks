@@ -1,3 +1,8 @@
+DataBricks cli
+
+https://docs.databricks.com/en/dev-tools/cli/install.html
+
+
 For MASK
 
 https://docs.databricks.com/en/sql/language-manual/sql-ref-syntax-ddl-column-mask.html
