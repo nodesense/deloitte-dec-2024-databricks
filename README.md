@@ -1,5 +1,7 @@
 DataBricks cli
 
+https://docs.databricks.com/en/dev-tools/cli/commands.html
+
 https://docs.databricks.com/en/dev-tools/cli/install.html
 
 
