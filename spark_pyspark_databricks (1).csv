@@ -1,0 +1,21 @@
+Index,Question,Option A,Option B,Option C,Option D,Answer
+1,What is the role of the driver in a Databricks cluster?,"Coordinates notebooks, execute tasks with executors",Data Management,Stores application data,Executes Spark jobs,A
+2,What is the minimum number of workers required in a Databricks cluster?,1,0,2,3,A
+3,Which cloud providers support Databricks?,AWS and Azure,Azure and GCP,AWS and GCP,"AWS, Azure, and GCP",D
+4,What happens if a Databricks cluster exceeds its maximum worker limit?,Tasks are paused,Cluster shuts down,Tasks are delayed,Workers are scaled up,A
+5,How does Databricks optimize cluster resource allocation?,Through resource queues,By reducing idle resources,With dynamic scaling,With autoscaling policies,D
+6,What is the role of the driver program in Apache Spark?,Schedules tasks,Manages storage,Executes tasks,Handles data storage,A
+7,How does Spark distribute tasks to executors?,Through task mapping,Using executors,Via shuffle operations,Through DAG processing,A
+8,Explain the concept of partitions in Apache Spark.,Logical partitions of data,Chunks of memory,Data splits for parallelism,Temporary storage for RDDs,C
+9,What is the difference between a Spark worker and a Spark executor?,Workers run tasks,Executors Run Tasks,Workers allocate tasks,Executors store data,B
+10,How does PySpark handle transformations and actions?,By executing actions eagerly,By lazily executing actions,Through lazy evaluation,By optimizing transformations,B
+11,What is the purpose of the SparkContext in PySpark?,Creating RDDs,Controlling resources,Scheduling tasks,Distributing tasks,C
+12,Explain the master-worker architecture of Spark.,Centralized job coordination,Distributed job execution,Managing SparkSession,Job submission interface,A
+13,How does Spark implement fault tolerance in RDDs?,Through lineage tracking,Through replication,Client-server model,Hierarchical task execution,C
+14,What is the impact of increasing the number of partitions in Spark?,Increases parallelism,Increases memory usage,Through lineage caching,Lowers fault tolerance,A
+15,How does Spark optimize job execution with the DAG scheduler?,By analyzing tasks,By caching results,Adds overhead,Decreases performance,A
+16,What is the difference between cache() and persist() in Spark?,Cache store in DISK ONLY,"Cache calls Persist to Store in DISK_AND_MEMORY, while persist has many storage levels",Storage optimizations,Caching intermediates,B
+17,How do broadcast variables improve performance in Spark?,Distributes data efficiently,Reduces data shuffling,Minimizes I/O,Improves computation speed,D
+18,What is the role of the Spark SQL Catalyst optimizer?,Reorganizing the query plan,Optimizing query execution,Pipelining task execution,Optimizing disk usage,A
+19,How does Spark handle data locality for improved performance?,Assigning tasks closer to data,Balancing workload,Improving throughput,Reducing task duration,C
+20,What is the purpose of shuffle operations in Spark?,To transfer data between stages,To broadcast variables,To aggregate results,To store intermediate data,C
