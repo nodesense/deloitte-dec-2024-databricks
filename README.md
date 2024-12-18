@@ -1,3 +1,9 @@
+LOCAL Setup
+
+https://github.com/gopalakrishnan-subramani/deloitte-sep-2024
+
+
+
 
 https://docs.databricks.com/en/structured-streaming/delta-lake.html#merge-in-streaming
 
