@@ -1,3 +1,20 @@
+```
+from pyspark.conf import SparkConf
+config = SparkConf()
+config.set("property", "value")
+config.setMaster("spark://172.19.77.183:7077").setAppName("HelloSparkSession")
+
+from pyspark.sql import SparkSession
+# spark Session, entry point for Spark SQL, DataFrame
+spark = SparkSession.builder\
+                    .config(conf=config)\
+                    .getOrCreate()
+
+sc = spark.sparkContext
+print ("spark session")
+
+```
+
 LOCAL Setup
 
 https://github.com/gopalakrishnan-subramani/deloitte-sep-2024
