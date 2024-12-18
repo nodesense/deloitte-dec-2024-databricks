@@ -1,4 +1,8 @@
+
+https://docs.databricks.com/en/structured-streaming/delta-lake.html#merge-in-streaming
+
 DataBricks cli
+
 
 https://docs.databricks.com/en/dev-tools/cli/commands.html
 
